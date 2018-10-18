@@ -21,7 +21,7 @@ noble.on('discover', function(peripheral) {
         var now = new Date();
 
         if (type.startsWith("d50201") && buffer.length == 21) {
-            console.log(peripheral.id + ': ' + type + '\(' + now.toLocaleString() + '\)') ;
+            //console.log(peripheral.id + ': ' + type + '\(' + now.toLocaleString() + '\)') ;
 
             if (buffer.length < 21) {
                 console.log(macAddress + " is not configure OMRON-Env. Expected AD lenght 21, actual " + buffer.length);
