@@ -1,0 +1,22 @@
+{
+  "name": "2jciebu-ble-log",
+  "version": "0.0.1",
+  "description": "",
+  "main": "2jciebu-ble.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaztakahashi/2jciebu-ble-log.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaztakahashi/2jciebu-ble-log/issues"
+  },
+  "homepage": "https://github.com/kaztakahashi/2jciebu-ble-log#readme",
+  "dependencies": {
+    "noble": "^1.9.1"
+  }
+}
